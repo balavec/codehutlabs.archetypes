@@ -10,6 +10,10 @@
 
     <five:registerPackage package="." initialize=".initialize"/>
 
+    <include package=".browser" />
+    <include package=".content" />
+    <include package=".portlets" />
+
     <genericsetup:registerProfile
             name="default"
             title="codehutlabs.theme"
